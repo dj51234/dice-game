@@ -30,7 +30,7 @@ function addRoundScore() {
 
   // Display result
   dice.style.display = 'block';
-  dice.src = `dice-${diceValue}.png`;
+  dice.src = `images/dice-${diceValue}.png`;
   player = document.querySelector(`#current-${currentPlayer}`);
 
   // Update result
